@@ -2,7 +2,20 @@ var main=document.getElementById("main");
 var btn_right=document.getElementById("right");
 var btn_left=document.getElementById("left");
 var start=0
-var db=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33]
+var db=[
+    {id:1,owner:"Eli",vip:true,tip:"bina",region:"Serur",adress:"Xetai mehellesi",room:2,condition:"Temirli",area:"100kv",floor:3,price:30000,elaqe:05553022296,tarix:"24.07.2024",info:"razilasmaq olar" },
+    {id:2,owner:"Veli",vip:false,tip:"heyet",region:"babek",adress:"elince mehellesi",room:4,condition:"Temirsiz",area:"200kv",price:40000,elaqe:05553022296,tarix:"24.07.2024",info:"nah razilasmaq olar"},
+    {id:3,owner:"Emin",vip:true,tip:"bina",region:"Serur",adress:"Xetai mehellesi",room:2,condition:"Temirli",area:"100kv",floor:3,price:30000,elaqe:05553022296,tarix:"24.07.2024",info:"razilasmaq olar" },
+    {id:4,owner:"Rauf",vip:false,tip:"heyet",region:"babek",adress:"elince mehellesi",room:4,condition:"Temirsiz",area:"200kv",price:40000,elaqe:05553022296,tarix:"24.07.2024",info:"nah razilasmaq olar"},
+    {id:5,owner:"Kenan",vip:false,tip:"bina",region:"Serur",adress:"Xetai mehellesi",room:2,condition:"Temirli",area:"100kv",floor:3,price:30000,elaqe:05553022296,tarix:"24.07.2024",info:"razilasmaq olar" },
+    {id:6,owner:"Ramin",vip:false,tip:"heyet",region:"babek",adress:"elince mehellesi",room:4,condition:"Temirsiz",area:"200kv",price:40000,elaqe:05553022296,tarix:"24.07.2024",info:"nah razilasmaq olar"},
+    {id:7,owner:"ELmin",vip:true,tip:"bina",region:"Serur",adress:"Xetai mehellesi",room:2,condition:"Temirli",area:"100kv",floor:3,price:30000,elaqe:05553022296,tarix:"24.07.2024",info:"razilasmaq olar" },
+    {id:8,owner:"Qasim",vip:false,tip:"heyet",region:"Naxcivan",adress:"elince mehellesi",room:4,condition:"Temirsiz",area:"200kv",price:40000,elaqe:05553022296,tarix:"24.07.2024",info:"nah razilasmaq olar"},
+    {id:9,owner:"Emin",vip:true,tip:"bina",region:"Serur",adress:"Xetai mehellesi",room:2,condition:"Temirli",area:"100kv",floor:3,price:30000,elaqe:05553022296,tarix:"24.07.2024",info:"razilasmaq olar" },
+    {id:10,owner:"Rauf",vip:false,tip:"heyet",region:"Culfa",adress:"elince mehellesi",room:4,condition:"Temirli",area:"300kv",price:40000,elaqe:05553022296,tarix:"24.07.2024",info:"nah razilasmaq olar"},
+    {id:11,owner:"Kenan",vip:true,tip:"bina",region:"Serur",adress:"Xetai mehellesi",room:2,condition:"Temirli",area:"100kv",floor:3,price:30000,elaqe:05553022296,tarix:"24.07.2024",info:"razilasmaq olar" },
+    {id:12,owner:"Ramin",vip:false,tip:"heyet",region:"babek",adress:"elince mehellesi",room:4,condition:"Temirsiz",area:"200kv",price:40000,elaqe:05553022296,tarix:"24.07.2024",info:"nah razilasmaq olar"},
+]
 console.log(db.length);
 var cards=[]
 
